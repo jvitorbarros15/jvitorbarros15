@@ -2,8 +2,7 @@
 
 I am a Computer Science senior at Penn State focused on AI, machine learning, blockchain, and quantum secure communication.  
 I work on high impact projects that combine research and engineering, and I enjoy building technology that solves real problems at scale.  
-Currently, I am a lead researcher at Penn State’s Blockchain Data Intelligence Lab, where I develop QLink, a quantum safe interoperability protocol that uses QKD and PQC to secure blockchain bridges.
-I am and also a software developer for Penn State Libraries where I work alongside the team using Ruby on Rails to maintain Univeristy's websites and aplications.
+Currently, I am a lead researcher at Penn State’s Blockchain Data Intelligence Lab, where I develop QLink, a quantum safe interoperability protocol that uses QKD and PQC to secure blockchain bridges. I am and also a software developer for Penn State Libraries where I work alongside the team using Ruby on Rails to maintain Univeristy's websites and aplications.
 
 ---
 
@@ -11,8 +10,7 @@ I am and also a software developer for Penn State Libraries where I work alongsi
 
 ### QLink  
 Quantum safe Layer 3 bridge that uses QKD and PQC to secure cross chain communication.  
-I simulated a 7 validator network with 5 to 50 km fiber links and reached up to 707 times surplus key throughput and under 1 second latency.  
-This outperformed classical bridges by more than 400 times in cross chain key refresh rate.
+I simulated a 7 validator network with 5 to 50 km fiber links and reached up to 707 times surplus key throughput and under 1 second latency. This outperformed classical bridges by more than 400 times in cross chain key refresh rate.
 
 ### NFL 4th Down Predictor  
 Machine learning model using 480K NFL plays to predict fourth down conversions.  
