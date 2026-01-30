@@ -11,7 +11,7 @@ Currently, I am a lead researcher at Penn State’s Blockchain Data Intelligence
 ### QLink  
 Quantum safe Layer 3 bridge that uses QKD and PQC to secure cross chain communication.  
 I simulated a 7 validator network with 5 to 50 km fiber links and reached up to 707 times surplus key throughput and under 1 second latency. This outperformed classical bridges by more than 400 times in cross chain key refresh rate.
-[Published Research Paper] (https://arxiv.org/pdf/2512.18488)
+[Published Research Paper](https://arxiv.org/pdf/2512.18488)
 
 ### NFL 4th Down Predictor  
 Machine learning model using 480K NFL plays to predict fourth down conversions.  
