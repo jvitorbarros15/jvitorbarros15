@@ -1,81 +1,67 @@
-# Hi, I am Joao Vitor Barros da Silva
+### Hi, I'm Joao Vitor Barros da Silva
 
-I am a Computer Science senior at Penn State focused on AI, machine learning, blockchain, and quantum secure communication.  
-I work on high impact projects that combine research and engineering, and I enjoy building technology that solves real problems at scale.  
-Currently, I am a lead researcher at Penn State’s Blockchain Data Intelligence Lab, where I develop QLink, a quantum safe interoperability protocol that uses QKD and PQC to secure blockchain bridges. I am and also a software developer for Penn State Libraries where I work alongside the team using Ruby on Rails to maintain Univeristy's websites and services.
+Computer Science senior at Penn State, specializing in Entrepreneurship and Innovation, with hands-on experience in machine learning, blockchain, and full-stack development. I'm passionate about building scalable, high-impact technology that blends AI/ML and blockchain to solve real-world problems.
 
----
-
-## What I am working on
-
-### QLink  
-Quantum safe Layer 3 bridge that uses QKD and PQC to secure cross chain communication.  
-I simulated a 7 validator network with 5 to 50 km fiber links and reached up to 707 times surplus key throughput and under 1 second latency. This outperformed classical bridges by more than 400 times in cross chain key refresh rate.\
-[Published Research Paper](https://arxiv.org/pdf/2512.18488)
-
-### NFL 4th Down Predictor  
-Machine learning model using 480K NFL plays to predict fourth down conversions.  
-Reached 62 percent accuracy with calibrated probability metrics.  
-[Repository](https://github.com/jvitorbarros15/nfl-4th-down-predictor)
-
-### ZorAi  
-Full stack decentralized app to verify AI generated images on chain.  
-Processed over 5 thousand images with 99 percent detection accuracy and under 2 seconds latency.  
-[Live App](https://zorai.vercel.app)
+Lead researcher at Penn State's Blockchain Data Intelligence Lab, developing QLink, a quantum safe interoperability protocol integrating QKD and PQC. Also a software development intern at Penn State University Libraries, shipping production Ruby on Rails features for a platform that serves 40,000+ users.
 
 ---
 
-## Experience
+### What I'm building
 
-### Software Development Intern at Penn State University Libraries  
-Working with Ruby on Rails and Docker to support more than 40 thousand users.  
+**QLink** — quantum safe Layer 3 bridge that uses QKD and post quantum cryptography to secure cross chain communication. Simulated a 7 validator network over 5 to 50 km fiber links, reaching 707x surplus key throughput and sub second latency, outperforming classical bridges by 400x in cross chain key refresh rate. First author, published on arXiv.
+[Read the paper](https://arxiv.org/pdf/2512.18488)
 
-Built a Python Pandas pipeline that cleaned faculty data from 17.7 thousand to 9.8 thousand accurate entries and reduced manual processing time by more than 90 percent.
+**JobNow** — AI job search co-pilot with three modules: a Gmail tracker that classifies emails with Claude and syncs to Google Calendar, a LinkedIn post drafter fed by real time tech news, and a job search engine that generates tailored resumes in LaTeX. Built on Next.js, Supabase, and the Claude API.
+[Code](https://github.com/jvitorbarros15/jobnow)
 
-Member of the development team for a large scale PDF remediation and accessibility platform built with AWS and Adobe, supporting over 3 million PDF uploads and improving document accessibility through automated parsing and secure S3 storage.
+**ZorAi** — full stack decentralized app that verifies AI generated images on chain. Combines an on chain registry deployed on Base Sepolia with IPFS metadata storage and OpenAI based content analysis. Processed 5,000+ image records with under 2 second verification latency.
+[Live app](https://zorai.vercel.app) · [Code](https://github.com/jvitorbarros15/zorai)
 
-Designed and implemented a cross system data integration API to POST JSON between independent websites, created JSON to XML importers, produced Swagger documentation, and reduced manual departmental data handling by approximately 60 percent through cross team collaboration.
+**Meridian** — investment research platform tracking global equities and crypto. Async FastAPI and SQLAlchemy backend on PostgreSQL and Redis with a live endpoint that recalculates portfolio returns on demand, containerized end to end with Docker Compose. Built using spec driven, agentic development with Claude Code.
+[Code](https://github.com/jvitorbarros15/Investment-Platform-)
 
-### Lead Researcher at Penn State Blockchain Data Intelligence Lab  
-Developing quantum secure blockchain bridges using QKD, PQC, and validator consensus.
-[Published Research Paper](https://arxiv.org/pdf/2512.18488)
-
-### Innovation and Operations Intern at Happy Valley LaunchBox  
-Integrated HubSpot with a custom UI and improved reporting visibility by 45 percent.  
-Automated workflows with Power Automate that raised team efficiency by 30 percent.
+**NFL 4th Down Predictor** — machine learning model trained on 11 years of NFL play by play data (480K plays) to predict fourth down conversion probability. 62% accuracy, 0.66 ROC-AUC, 0.23 Brier score.
+[Code](https://github.com/jvitorbarros15/nfl-4th-down-predictor)
 
 ---
 
-## Technical Skills
+### Experience
 
-**Languages**  
-Python, JavaScript, C, Ruby on Rails, Solidity, SQL, HTML, CSS
+**Software Development Intern, Penn State University Libraries** — Oct 2025 to present
+Building and shipping features on production systems serving 40,000+ users, working in a formal Scrum process with daily standups, using Ruby on Rails, Python, Docker, and CI. Built a Python data pipeline that cleaned and validated a dataset from 17,700 to 9,800 verified records, cutting manual processing time by over 90%. Built a Google Scholar profile matching pipeline across 11,000+ faculty using Rails, PostgreSQL, and ScraperAPI, with multi signal entity resolution reaching a 40% auto match rate and eliminating 34% of scrape volume through pre-scrape filtering. Shipped a large scale PDF remediation and accessibility platform with AWS and Adobe, supporting 3M+ document uploads. Designed a cross system integration API with JSON to XML importers and Swagger documentation, reducing manual departmental processing by 60%.
 
-**Frameworks and Tools**  
-React, Next.js, Node.js, Flask, FastAPI, Firebase, Docker, AWS
+**Lead Researcher, Blockchain Data Intelligence Lab, Penn State** — Feb 2025 to present
+Developing quantum secure blockchain bridges using QKD, PQC, and validator consensus. First author on QLink (arXiv:2512.18488).
 
-**ML and AI**  
-TensorFlow, PyTorch, Scikit learn, LangChain, Pandas, NumPy, LLMs
-
-**Other**  
-Git, Figma, Jira, Notion, HubSpot, WordPress, Microsoft 365
+**Innovation and Operations Intern, Happy Valley LaunchBox** — May 2023 to Jul 2024
+Integrated HubSpot CRM with a new internal UI, improving reporting visibility 45% across 40+ active startups. Automated workflows with Power Automate, raising team efficiency 30%.
 
 ---
 
-## Certifications
+### Recognition
 
-IBM AI Agents with RAG and LangChain  
-IBM Deep Learning and Neural Networks  
-Google AI and Blockchain Certificate  
-IBM Machine Learning with Python  
-Coursera Fake News Detection (ML)  
-Coursera ML Web App with Streamlit
+**Publication**
+Barros Da Silva, J.V., Gupta, A., Singh, M., Singh, I. "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability." arXiv:2512.18488, 2025. First author.
+
+**Awards**
+Google Solution Challenge 2026, Google Developers Group
+
+**Certifications**
+Certificate of Applied Cloud Architecture, AWS, 2026 · Google Cybersecurity Certificate, Google, 2026 · Full Stack Developer, Meta, 2026 · AI & Blockchain Certificate, Google, 2025 · AI Agents with RAG & LangChain, IBM, 2025 · Deep Learning & Neural Networks, IBM, 2025 · Machine Learning with Python, IBM, 2025
+Full list on [LinkedIn](https://www.linkedin.com/in/joaovi)
 
 ---
 
-## Connect with me
+### Technical skills
 
-**LinkedIn:** https://www.linkedin.com/in/joaovi  
-**GitHub:** https://github.com/jvitorbarros15  
-**Email:** jvitorbarros15@gmail.com
+**Languages:** Python, TypeScript, JavaScript, Ruby, Solidity, C, SQL
+**Frameworks:** React, Next.js, Node.js, Ruby on Rails, FastAPI, Flask
+**Data & Infra:** PostgreSQL, Redis, Docker, AWS S3, CircleCI, Git/GitHub
+**AI/ML:** PyTorch, TensorFlow, Scikit-learn, XGBoost, LangChain, Claude API, OpenAI API
+**Security & Cryptography:** Smart contract development, post-quantum cryptography, quantum key distribution
 
+---
+
+### Let's connect
+
+[LinkedIn](https://www.linkedin.com/in/joaovi) · [Portfolio](https://joao-vitor-barros-da-silva-portfoli.vercel.app/) · [jvitorbarros15@gmail.com](mailto:jvitorbarros15@gmail.com)
