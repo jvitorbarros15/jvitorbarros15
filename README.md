@@ -1,6 +1,6 @@
 ### Hi, I'm Joao Vitor Barros da Silva
 
-Computer Science senior at Penn State, specializing in Entrepreneurship and Innovation, with hands-on experience in machine learning, blockchain, and full-stack development. I'm passionate about building scalable, high-impact technology that blends AI/ML and blockchain to solve real-world problems.
+Computer Science Graduate at Penn State, specializing in Entrepreneurship and Innovation, with hands-on experience in machine learning, blockchain, and full-stack development. I'm passionate about building scalable, high-impact technology that blends AI/ML and blockchain to solve real-world problems.
 
 Lead researcher at Penn State's Blockchain Data Intelligence Lab, developing QLink, a quantum safe interoperability protocol integrating QKD and PQC. Also a software development intern at Penn State University Libraries, shipping production Ruby on Rails features for a platform that serves 40,000+ users.
 
