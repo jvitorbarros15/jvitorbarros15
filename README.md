@@ -19,7 +19,7 @@ Lead researcher at Penn State's Blockchain Data Intelligence Lab, developing QLi
 
 ### What I'm building
 
-**Clareia** — public transparency site for Brazil's Congress covering all 592 federal deputies: 226,000+ expense records (R$ 256M), 22,700 bills and 473,000 roll-call votes, every figure traceable to its official source. A dual-capture pipeline reconciles the Chamber's open-data API against its annual CEAP file, and an independent re-audit holds ~180 unconfirmed deputy-months for review instead of showing them as R$0. Cut the initial load from 174 MB to 6.4 MB (613 requests → 28). Used by 500+ people. TypeScript, PostgreSQL, Playwright, Cloudflare.
+**Clareia** — public transparency site for Brazil's Congress covering all 592 federal deputies: 226,000+ expense records (R$ 252M), 22,700 bills and 473,000 roll-call votes, every figure traceable to its official source. A dual-capture pipeline reconciles the Chamber's open-data API against its annual CEAP file, and an independent re-audit holds ~180 unconfirmed deputy-months for review instead of showing them as R$0. Cut the initial load from 174 MB to 6.4 MB (613 requests → 28). Used by 500+ people. TypeScript, PostgreSQL, Playwright, Cloudflare.
 [Live site](https://clareia.clareia.workers.dev/) · [Code](https://github.com/jvitorbarros15/clareia)
 
 **Multi-Agent AI Workspace** — self-hosted agent gateway where an orchestrator agent breaks projects into tasks and delegates them to builder and researcher agents, running on Codex and local LLMs (Qwen, Gemma) served through Ollama, reachable from WhatsApp.
