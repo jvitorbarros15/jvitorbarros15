@@ -62,8 +62,8 @@ Integrated HubSpot CRM with a new internal UI, improving reporting visibility 45
 **Publication**
 Barros Da Silva, J.V., Gupta, A., Singh, M., Singh, I. "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability." arXiv:2512.18488, 2025. First author.
 
-**Awards**
-Google Solution Challenge 2026, Google Developers Group
+**Hackathons and recognition**
+Penn State ICDS Symposium 2025, selected presenter (QLink), ranked top 5 quantum projects · Google Solution Challenge 2026 participant (WorkStamp, GDG@PSU)
 
 **Certifications**
 Certificate of Applied Cloud Architecture, AWS, 2026 · Google Cybersecurity Certificate, Google, 2026 · Full Stack Developer, Meta, 2026 · AI & Blockchain Certificate, Google, 2025 · AI Agents with RAG & LangChain, IBM, 2025 · Deep Learning & Neural Networks, IBM, 2025 · Machine Learning with Python, IBM, 2025
