@@ -1,4 +1,15 @@
+<div align="center">
+
 ### Hi, I'm Joao Vitor Barros da Silva
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&lines=Building+software+people+can+check;Currently+shipping%3A+Clareia+%26+multi-agent+AI;AI+%C2%B7+Blockchain+%C2%B7+Quantum-safe+systems;Gamer.+Dinosaur+fan.+Full-stack+builder." alt="Typing intro" />
+
+<a href="https://joao-vitor-barros-da-silva-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0f1b3d?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/joaovi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://arxiv.org/abs/2512.18488"><img src="https://img.shields.io/badge/arXiv-2512.18488-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv paper" /></a>
+<a href="mailto:jvitorbarros15@gmail.com"><img src="https://img.shields.io/badge/Email-1f2937?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
+</div>
 
 Computer Science Graduate at Penn State, specializing in Entrepreneurship and Innovation, with hands-on experience in machine learning, blockchain, and full-stack development. I'm passionate about building scalable, high-impact technology that blends AI/ML and blockchain to solve real-world problems.
 
@@ -7,6 +18,14 @@ Lead researcher at Penn State's Blockchain Data Intelligence Lab, developing QLi
 ---
 
 ### What I'm building
+
+**Clareia** — public transparency site for Brazil's Congress covering all 592 federal deputies: 226,000+ expense records (R$ 252M), 22,700 bills and 473,000 roll-call votes, every figure traceable to its official source. A dual-capture pipeline reconciles the Chamber's open-data API against its annual CEAP file, and an independent re-audit caught 180 inconsistent records in official data before release. Cut the initial payload from ~200 MB to ~1 MB. Used by 500+ people. TypeScript, PostgreSQL, Playwright, Cloudflare.
+[Live site](https://clareia.clareia.workers.dev/) · [Code](https://github.com/jvitorbarros15/clareia)
+
+**Multi-Agent AI Workspace** — self-hosted agent gateway where an orchestrator agent breaks projects into tasks and delegates them to builder and researcher agents, running on Codex and local LLMs (Qwen, Gemma) served through Ollama, reachable from WhatsApp.
+
+**New Home Imóveis** — full-stack real-estate platform for a paying client: captures WhatsApp leads, syncs them into HubSpot, and gives the team an admin back office for listings, media and leads. React, Node.js, Supabase.
+[Live app](https://new-home-imoveis.vercel.app) · [Code](https://github.com/jvitorbarros15/new-home-imoveis)
 
 **QLink** — quantum safe Layer 3 bridge that uses QKD and post quantum cryptography to secure cross chain communication. Simulated a 7 validator network over 5 to 50 km fiber links, reaching 707x surplus key throughput and sub second latency, outperforming classical bridges by 400x in cross chain key refresh rate. First author, published on arXiv.
 [Read the paper](https://arxiv.org/pdf/2512.18488)
@@ -27,11 +46,11 @@ Lead researcher at Penn State's Blockchain Data Intelligence Lab, developing QLi
 
 ### Experience
 
-**Software Development Intern, Penn State University Libraries** — Oct 2025 to present
+**Software Development Intern, Penn State University Libraries** — Oct 2025 to Jul 2026
 Building and shipping features on production systems serving 40,000+ users, working in a formal Scrum process with daily standups, using Ruby on Rails, Python, Docker, and CI. Built a Python data pipeline that cleaned and validated a dataset from 17,700 to 9,800 verified records, cutting manual processing time by over 90%. Built a Google Scholar profile matching pipeline across 11,000+ faculty using Rails, PostgreSQL, and ScraperAPI, with multi signal entity resolution reaching a 40% auto match rate and eliminating 34% of scrape volume through pre-scrape filtering. Shipped a large scale PDF remediation and accessibility platform with AWS and Adobe, supporting 3M+ document uploads. Designed a cross system integration API with JSON to XML importers and Swagger documentation, reducing manual departmental processing by 60%.
 
 **Lead Researcher, Blockchain Data Intelligence Lab, Penn State** — Feb 2025 to present
-Developing quantum secure blockchain bridges using QKD, PQC, and validator consensus. First author on QLink (arXiv:2512.18488).
+Developing quantum secure blockchain bridges using QKD, PQC, and validator consensus. First author on QLink (arXiv:2512.18488); selected presenter at the Penn State ICDS Symposium 2025, ranked in the top 5 quantum projects.
 
 **Innovation and Operations Intern, Happy Valley LaunchBox** — May 2023 to Jul 2024
 Integrated HubSpot CRM with a new internal UI, improving reporting visibility 45% across 40+ active startups. Automated workflows with Power Automate, raising team efficiency 30%.
@@ -54,6 +73,26 @@ Full list on [LinkedIn](https://www.linkedin.com/in/joaovi)
 
 ### Technical skills
 
+<div align="center">
+
+**AI**
+
+<img src="https://img.shields.io/badge/Multi--Agent_Workflows-2b1d14?style=flat-square" alt="Multi-Agent Workflows" /> <img src="https://img.shields.io/badge/LLM_Apps-2b1d14?style=flat-square" alt="LLM Apps" /> <img src="https://img.shields.io/badge/Local_LLMs_(Ollama)-2b1d14?style=flat-square" alt="Local LLMs" /> <img src="https://img.shields.io/badge/Claude_Code_%26_Codex-2b1d14?style=flat-square" alt="Claude Code and Codex" /> <img src="https://img.shields.io/badge/AI_Content_Verification-2b1d14?style=flat-square" alt="AI Content Verification" />
+
+**Data**
+
+<img src="https://img.shields.io/badge/Data_Pipelines-14232b?style=flat-square" alt="Data Pipelines" /> <img src="https://img.shields.io/badge/Reconciliation_%26_Audits-14232b?style=flat-square" alt="Reconciliation and Audits" /> <img src="https://img.shields.io/badge/Entity_Resolution-14232b?style=flat-square" alt="Entity Resolution" /> <img src="https://img.shields.io/badge/Web_Scraping-14232b?style=flat-square" alt="Web Scraping" />
+
+**Systems**
+
+<img src="https://img.shields.io/badge/REST_API_Design-1d142b?style=flat-square" alt="REST API Design" /> <img src="https://img.shields.io/badge/Smart_Contracts-1d142b?style=flat-square" alt="Smart Contracts" /> <img src="https://img.shields.io/badge/Post--Quantum_Crypto_%26_QKD-1d142b?style=flat-square" alt="Post-Quantum Crypto and QKD" /> <img src="https://img.shields.io/badge/Distributed_Systems_Simulation-1d142b?style=flat-square" alt="Distributed Systems Simulation" />
+
+**Code**
+
+<img src="https://skillicons.dev/icons?i=py,ts,js,ruby,rails,react,nextjs,nodejs,fastapi,postgres,redis,docker,aws,cloudflare,solidity,git&perline=8" alt="Tech stack icons" />
+
+</div>
+
 **Languages:** Python, TypeScript, JavaScript, Ruby, Solidity, C, SQL
 **Frameworks:** React, Next.js, Node.js, Ruby on Rails, FastAPI, Flask
 **Data & Infra:** PostgreSQL, Redis, Docker, AWS S3, CircleCI, Git/GitHub
@@ -64,4 +103,4 @@ Full list on [LinkedIn](https://www.linkedin.com/in/joaovi)
 
 ### Let's connect
 
-[LinkedIn](https://www.linkedin.com/in/joaovi) · [Portfolio](https://joao-vitor-barros-da-silva-portfoli.vercel.app/) · [jvitorbarros15@gmail.com](mailto:jvitorbarros15@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/joaovi) · [Portfolio](https://joao-vitor-barros-da-silva-portfolio.vercel.app/) · [jvitorbarros15@gmail.com](mailto:jvitorbarros15@gmail.com)
