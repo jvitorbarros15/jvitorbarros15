@@ -19,12 +19,12 @@ Lead researcher at Penn State's Blockchain Data Intelligence Lab, developing QLi
 
 ### What I'm building
 
-**Clareia** — public transparency site for Brazil's Congress covering all 592 federal deputies: 226,000+ expense records (R$ 256M), 22,700 bills and 473,000 roll-call votes, every figure traceable to its official source. A dual-capture pipeline reconciles the Chamber's open-data API against its annual CEAP file, and an independent re-audit holds ~180 unconfirmed deputy-months for review instead of showing them as R$0. Cut the initial load from 174 MB to 6.4 MB (613 requests → 28). Used by 500+ people. TypeScript, PostgreSQL, Playwright, Cloudflare.
-[Live site](https://clareia.clareia.workers.dev/) · [Code](https://github.com/jvitorbarros15/clareia)
+**Clareia** — public transparency site for Brazil's Congress covering all 592 federal deputies: 226,000+ expense records (R$ 256M), 22,700 bills and 473,000 roll-call votes, every figure traceable to its official source. A dual-capture pipeline reconciles the Chamber's open-data API against its annual CEAP file, and an independent re-audit holds ~180 unconfirmed deputy-months for review instead of showing them as R$0. Cut the initial load from 174 MB to 6.4 MB (613 requests → 28). Used by 500+ people. Also built a read-only REST API over the published data in Go (net/http, pgx) and PostgreSQL with an OpenAPI 3.1 contract; k6 load tests on one laptop exposed an endpoint re-aggregating 123K rows per request, and pre-aggregating it at load time cut its p95 from ~190 ms to ~15 ms and raised the rate held with zero dropped requests from 168 to 850+ req/s (API built and benchmarked, not deployed yet). TypeScript, Go, PostgreSQL, Playwright, Cloudflare.
+[Live site](https://clareia.clareia.workers.dev/) · [API docs](https://clareia.clareia.workers.dev/api) · [Code](https://github.com/jvitorbarros15/clareia)
 
-**Multi-Agent AI Workspace** — self-hosted agent gateway where an orchestrator agent breaks projects into tasks and delegates them to builder and researcher agents, running on Codex and local LLMs (Qwen, Gemma) served through Ollama, reachable from WhatsApp.
+**Multi-Agent AI Workspace** — a tiered agent setup for my own projects: Claude Code (Opus) plans, writes specs and reviews every diff while Sonnet, Haiku, Fable and Codex subagents do the work, and mechanical edits run free on local Ollama models (Gemma 4, Nemotron) through opencode and OmniRoute. A self-hosted Hermes gateway reaches it from WhatsApp and email, with an open-source model categorizing incoming mail.
 
-**New Home Imóveis** — full-stack real-estate platform for a paying client: captures WhatsApp leads, syncs them into HubSpot, and gives the team an admin back office for listings, media and leads. React, Node.js, Supabase.
+**New Home Imóveis** — full-stack real-estate platform for a paying client: captures WhatsApp leads and gives the team an admin back office for listings, media and leads. React, Node.js, Supabase.
 [Live app](https://new-home-imoveis.vercel.app) · [Code](https://github.com/jvitorbarros15/new-home-imoveis)
 
 **QLink** — quantum-safe Layer-3 bridge combining post-quantum signatures, quantum key distribution and HSM key custody. Four simulation studies: QKD supplied 62–707x the key material validators need over 5–50 km fiber, the security ablation shows about two orders of magnitude lower modeled key-compromise probability than classical bridges, and total cryptographic overhead stays under 1 second per transfer. First author.
@@ -89,11 +89,11 @@ Full list on [LinkedIn](https://www.linkedin.com/in/joaovi)
 
 **Code**
 
-<img src="https://skillicons.dev/icons?i=py,ts,js,ruby,rails,react,nextjs,nodejs,fastapi,postgres,redis,docker,aws,cloudflare,solidity,git&perline=8" alt="Tech stack icons" />
+<img src="https://skillicons.dev/icons?i=py,ts,js,go,ruby,rails,react,nextjs,nodejs,fastapi,postgres,redis,docker,aws,cloudflare,solidity,git&perline=8" alt="Tech stack icons" />
 
 </div>
 
-**Languages:** Python, TypeScript, JavaScript, Ruby, Solidity, C, SQL
+**Languages:** Python, TypeScript, JavaScript, Go, Ruby, Solidity, C, SQL
 **Frameworks:** React, Next.js, Node.js, Ruby on Rails, FastAPI, Flask
 **Data & Infra:** PostgreSQL, Redis, Docker, AWS S3, CircleCI, Git/GitHub
 **AI/ML:** PyTorch, TensorFlow, Scikit-learn, XGBoost, LangChain, Claude API, OpenAI API
