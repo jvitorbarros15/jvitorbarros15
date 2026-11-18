@@ -27,7 +27,7 @@ Lead researcher at Penn State's Blockchain Data Intelligence Lab, developing QLi
 **New Home Imóveis** — full-stack real-estate platform for a paying client: captures WhatsApp leads, syncs them into HubSpot, and gives the team an admin back office for listings, media and leads. React, Node.js, Supabase.
 [Live app](https://new-home-imoveis.vercel.app) · [Code](https://github.com/jvitorbarros15/new-home-imoveis)
 
-**QLink** — quantum safe Layer 3 bridge that uses QKD and post quantum cryptography to secure cross chain communication. Simulated a 7 validator network over 5 to 50 km fiber links, reaching 707x surplus key throughput and sub second latency, outperforming classical bridges by 400x in cross chain key refresh rate. First author, published on arXiv.
+**QLink** — quantum-safe Layer-3 bridge combining post-quantum signatures, quantum key distribution and HSM key custody. Four simulation studies: QKD supplied 62–707x the key material validators need over 5–50 km fiber, the security ablation shows about two orders of magnitude lower modeled key-compromise probability than classical bridges, and total cryptographic overhead stays under 1 second per transfer. First author; ARES 2026 SP2I workshop submission under review.
 [Read the paper](https://arxiv.org/pdf/2512.18488)
 
 **JobNow** — AI job search co-pilot with three modules: a Gmail tracker that classifies emails with Claude and syncs to Google Calendar, a LinkedIn post drafter fed by real time tech news, and a job search engine that generates tailored resumes in LaTeX. Built on Next.js, Supabase, and the Claude API.
