@@ -2,7 +2,7 @@
 
 ### Hi, I'm Joao Vitor Barros da Silva
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&lines=Building+software+people+can+check;Currently+shipping%3A+Clareia+%26+multi-agent+AI;AI+%C2%B7+Blockchain+%C2%B7+Quantum-safe+systems;Gamer.+Dinosaur+fan.+Full-stack+builder." alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=760&lines=Building+software+people+can+check;Currently+shipping%3A+Clareia+%26+multi-agent+AI;AI+%C2%B7+Blockchain+%C2%B7+Quantum-safe+systems;Gamer.+Astronomy+lover.+Dinosaur+fan.+Full-stack+builder." alt="Typing intro" />
 
 <a href="https://joao-vitor-barros-da-silva-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0f1b3d?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/joaovi"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
